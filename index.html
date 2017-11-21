@@ -12,39 +12,51 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>Tell Me About Yourself</h1>
         <hr>
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
-            Name:
+            Full Name:
             <input type="text" name="name"><br> E-mail:
             
             <input type="email" name="email"><br>
 
             <!--add your own inputs below-->
-
+            <br>
             Birthday:
             <input type="text" name="Birthday"><br>
             
             <input type="text" name="age" placeholder="Age" required><br>
             
             What age do you want to be? <input type="text" name="desiredAge"><br>
-            
-            What activity do you like better?
-            <input type="checkbox" name="activity" value="Bungee Jumping">Bungee Jumping 
+            <br>
+            What activity do you like better? <br>
+            <input type="checkbox" name="activity" value="Bungee Jumping">  Bungee Jumping 
             <input type="checkbox" name="activity" value="Hot Air Balllon"> Hot Air Balllon Ride <br>
+            <br>
+            What is your eye color? <br>
+            <input type="radio" name="eye color" value="brown"> Brown <br>
+            <input type="radio" name="eye color" value="blue"> Blue <br>
+            <input type="radio" name="eye color" value="gray"> Gray<br>
+            <input type="radio" name="eye color" value="Hazel"> Hazel<br>
+            <input type="radio" name="eye color" value="green"> Green<br>
+            <input type="radio" name="eye color" value="red/pink"> Red or Pink<br>
+            <br>
             
-            <input type="radio" name=
+            What superpower do you want?
+            <br>
+            <select name="power"> 
+            <option value= "fly">Fly</option>
+            <option value= "invisibility">Invisibility</option>
+            <option value= "none" selected > None </option>
+            <option value= "telepathy">Telepathy</option>
+            <option value= "teleportation">Teleportation</option>
+            </select>
             
-            
-            
-            
-
-
-
-
-
-
+            <br>
+            <br>
+            <em><h2><textarea name="message">Thank you for you time.</textarea></h2></em>
+            <br>
             <!--add your own inputs above-->
 
             <input class="blue-button" type="submit" value="Submit">
